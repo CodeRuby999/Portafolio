@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background waves -->
+  <path d="M0 300C200 250 400 350 600 300C800 250 800 400 800 400V600H0V300Z" fill="#FFE4E6" fill-opacity="0.3"/>
+  <path d="M0 350C200 300 400 400 600 350C800 300 800 450 800 450V600H0V350Z" fill="#FFD6D8" fill-opacity="0.2"/>
+  
+  <!-- Large decorative circle -->
+  <circle cx="600" cy="300" r="250" fill="#FFF0F1" fill-opacity="0.5"/>
+  
+  <!-- Organic shapes -->
+  <path d="M500 100C600 50 700 100 750 200C800 300 750 400 650 450C550 500 450 450 400 350C350 250 400 150 500 100Z" fill="#FFB5B9" fill-opacity="0.2"/>
+  <path d="M450 150C550 100 650 150 700 250C750 350 700 450 600 500C500 550 400 500 350 400C300 300 350 200 450 150Z" fill="#FF9EA3" fill-opacity="0.3"/>
+  
+  <!-- Leaves -->
+  <path d="M600 200C650 150 700 150 750 200C800 250 800 300 750 350C700 400 650 400 600 350C550 300 550 250 600 200Z" fill="#FF8A90" fill-opacity="0.8"/>
+  <path d="M500 250C550 200 600 200 650 250C700 300 700 350 650 400C600 450 550 450 500 400C450 350 450 300 500 250Z" fill="#FF8A90" fill-opacity="0.6"/>
+  <path d="M400 300C450 250 500 250 550 300C600 350 600 400 550 450C500 500 450 500 400 450C350 400 350 350 400 300Z" fill="#FF8A90" fill-opacity="0.4"/>
+  
+  <!-- Floating elements -->
+  <circle cx="350" cy="150" r="12" fill="#FFB5B9" fill-opacity="0.8"/>
+  <circle cx="450" cy="250" r="10" fill="#FFB5B9" fill-opacity="0.8"/>
+  <circle cx="550" cy="350" r="15" fill="#FFB5B9" fill-opacity="0.8"/>
+  <circle cx="650" cy="200" r="8" fill="#FFB5B9" fill-opacity="0.8"/>
+  <circle cx="400" cy="400" r="9" fill="#FFB5B9" fill-opacity="0.8"/>
+  
+  <!-- Small decorative dots -->
+  <circle cx="300" cy="200" r="4" fill="#FF8A90" fill-opacity="0.6"/>
+  <circle cx="500" cy="300" r="3" fill="#FF8A90" fill-opacity="0.6"/>
+  <circle cx="700" cy="400" r="5" fill="#FF8A90" fill-opacity="0.6"/>
+  <circle cx="600" cy="150" r="3" fill="#FF8A90" fill-opacity="0.6"/>
+  <circle cx="450" cy="450" r="4" fill="#FF8A90" fill-opacity="0.6"/>
+</svg> 

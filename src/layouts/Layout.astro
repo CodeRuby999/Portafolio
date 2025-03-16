@@ -1,22 +1,45 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
-	</head>
-	<body>
-		<slot />
-	</body>
-</html>
+---
+//Importar estilos de tailwind
+import './src/styles/global.css';
 
-<style>
-	html,
-	body {
-		margin: 0;
-		width: 100%;
-		height: 100%;
-	}
-</style>
+// Añadir props
+const {title} =  Astro.props;
+// Importar componentes
+import Nav from '../components/Nav.astro';
+import AboutMe from '../components/AboutMe.astro';
+import Presentation from '../components/Presentation-Section.astro'
+
+---
+	
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{title}</title>
+</head>
+<body class="m-0 ">
+
+	<section class=" py-10  inset-0 bg-[url('/Fondo-compu.webp')] bg-cover h-screen">		
+		
+		<div>
+			<Nav></Nav>
+			<Presentation></Presentation>
+		</div>
+
+	</section>
+		
+	<main>
+		
+	</main>
+
+	<footer>
+
+	</footer>
+
+</body>
+</html >
+
+
+
